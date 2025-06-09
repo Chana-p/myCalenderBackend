@@ -1,0 +1,213 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "password123"
+        },
+        {
+            "id": 2,
+            "username": "dvora",
+            "password": "bresler"
+        },
+        {
+            "id": 3,
+            "username": "dvora1",
+            "password": "bresler",
+            "email": "r@r.r",
+            "phone": "000"
+        },
+        {
+            "id": 4,
+            "username": "dvora11",
+            "password": "bresler1",
+            "email": "r@r.r",
+            "phone": "000"
+        },
+        {
+            "id": 5,
+            "username": "chaya",
+            "password": "1234",
+            "email": "123",
+            "phone": "123"
+        },
+        {
+            "id": 6,
+            "username": "chani",
+            "password": "1111",
+            "email": "aaa",
+            "phone": "aaa"
+        },
+        {
+            "id": 7,
+            "username": "you",
+            "password": "*9999",
+            "email": "5614",
+            "phone": "132"
+        },
+        {
+            "id": 8,
+            "username": "chany",
+            "password": "11",
+            "email": "11",
+            "phone": "11"
+        }
+    ],
+    "name": "Dvora",
+    "meetings": {
+        "-1": [
+            {
+                "name": "בלימי",
+                "date": "2025-06-16",
+                "time": "12:40",
+                "description": "   ",
+                "id": "a6c79031-7d5f-4069-9a9e-65de7d562bbd",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "חיים",
+                "date": "2025-06-17",
+                "time": "11:00",
+                "description": "מחכה לאישור מהקופה",
+                "id": "6dd4e1ad-fe0d-459e-9b39-4bbd28c3dfb4",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "מירי",
+                "date": "2025-06-17",
+                "time": "08:45",
+                "description": "לבדוק מתי נגמרת הסדרה",
+                "id": "ed3c3874-6361-4dba-bc2f-ffd64c473d92",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "דובי",
+                "date": "2025-06-11",
+                "time": "09:30",
+                "description": "להכניס דחוף מתגברת\nמוטוריקה גסה \nרביעיות \nוהקראת סיפורים ובדיחות\nלסקרן",
+                "id": "20eed35f-9c3a-40b0-8caf-c34106755bb4",
+                "number": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "מאיר",
+                "date": "2025-06-11",
+                "time": "10:15",
+                "description": "   ",
+                "id": "90238147-edd0-49fc-9dd4-002ae501de1f",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "יהודה",
+                "date": "2025-06-11",
+                "time": "11:00",
+                "description": "   משפט תכלית והגדרות",
+                "id": "76f3a535-a370-4b55-a309-97aa813e5977",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "סיכום אבחון לחיים",
+                "date": "2025-06-14",
+                "description": "   ",
+                "id": "d835ab00-f8e4-475e-a15f-bae5879431ec",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "c5",
+                "date": "Wed Feb 19 2025",
+                "time": "12:54",
+                "number": 1,
+                "sumOfMeetings": "2",
+                "description": "   ",
+                "id": "e86f5417-8eab-4c40-bf95-f04f351d803a",
+                "paid": "500",
+                "reception": true
+            },
+            {
+                "name": "c",
+                "date": "2025-06-26T00:00:00.000Z",
+                "time": "12:54",
+                "number": 2,
+                "sumOfMeetings": "2",
+                "paid": 0,
+                "reception": "x",
+                "description": "   ",
+                "id": "e86f5417-8eab-4c40-bf95-f04f351d803a"
+            }
+        ]
+    },
+    "tasks": {
+        "-1": [
+            {
+                "name": "קריאת סיפורים",
+                "taskName": "קריאת סיפורים",
+                "date": "2025-06-11",
+                "time": "09:30",
+                "description": "   ",
+                "id": "20eed35f-9c3a-40b0-8caf-c34106755bb4",
+                "finished": false
+            },
+            {
+                "name": "קריאת סיפורים",
+                "taskName": "קריאת סיפורים",
+                "date": "2025-06-21",
+                "time": "10:15",
+                "description": "   ",
+                "id": "90238147-edd0-49fc-9dd4-002ae501de1f",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "קריאת סיפורים",
+                "taskName": "קריאת סיפורים",
+                "date": "2025-06-11",
+                "time": "11:00",
+                "description": "   משפט תכלית והגדרות",
+                "id": "76f3a535-a370-4b55-a309-97aa813e5977",
+                "number": "1",
+                "sumOfMeetings": "1",
+                "paid": 0,
+                "reception": "x"
+            },
+            {
+                "name": "s",
+                "taskName": "",
+                "date": "2025-06-14T00:00:00.000Z",
+                "time": "19:25",
+                "finished": false,
+                "description": "   ",
+                "id": "a411d68d-e944-4db9-8228-03107f3b36cf"
+            },
+            {
+                "name": "dd",
+                "taskName": "סיכום אבחון ",
+                "date": "2025-06-23T00:00:00.000Z",
+                "time": "20:28",
+                "finished": false,
+                "description": "   ",
+                "id": "31cd72c0-3a87-49d6-89ed-21ac8e2848a5"
+            }
+        ]
+    }
+}
