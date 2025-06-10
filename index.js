@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 const { log } = require('console')
 const { finished } = require('stream')
 
-const PORT = 1234
+const PORT = process.env.PORT || 1234
 const SECRET = 'mykey'
 const app = express()
 
@@ -283,7 +283,17 @@ catch(e) {
 
 }
 });
+app.get('/', (req, res) => {
+    res.json({ 
+        message: 'Calendar Backend is running!',
+        status: 'OK',
+        timestamp: new Date().toISOString()
+    });
+});
 
+app.get('/health', (req, res) => {
+    res.json({ status: 'OK' });
+});
 app.get('/meetings/:id', (req, res) => {
     fs.readFile('data.json', function (err, data) {
         if (err) {
@@ -445,6 +455,6 @@ catch(e) {
 
 }
 });
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${PORT}.`)
 })
